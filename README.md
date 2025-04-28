@@ -1,4 +1,4 @@
-<img width="659" alt="image" src="https://github.com/user-attachments/assets/7b2c48c7-95d6-4f4c-9b52-f7a8f4994dac" /># Nesne Tanımada Derin Öğrenme Mimarilerinin Performans Karşılaştırması
+Performans Karşılaştırması
 Bu çalışma, nesne tanıma için yaygın olarak kullanılan farklı derin öğrenme modellerinin performansını, veri augmentasyonu eklemeyi içeren bir yöntemle karşılaştırmaktadır. Kullanılan modeller arasında YOLO (You Only Look Once), Faster R-CNN (Region-based Convolutional Neural Networks), SSD (Single Shot Multibox Detector), ResNet50 ve RetinaNet yer almaktadır. 
 
 Çalışma, COCO veri seti üzerinde bu modellerin nesne tespiti başarılarını, orijinal ve augmentasyona tabi tutulmuş veri setlerinde test ederek karşılaştırmaktadır. Veri augmentasyonu ile model doğruluğunda gözle görülür iyileşmeler sağlanmıştır. Bu çalışma, nesne tespiti alanında en verimli derin öğrenme mimarisinin tespit edilmesini amaçlamaktadır.
@@ -38,3 +38,5 @@ Aşağıdaki ekran görüntüsünde projenin dosya ağacı yer alıyor.
 - Son olarak açık mor rengi ile işaretli dosyalar, önceden eğitilmiş YOLO v3 modelini kullanabilmemizi sağlayacak yardımcı dosyaları içeriyor. 
   - Bu dosyalardan `yolov3.weights`, pre-trained yapay sinir ağı modelinin ağırlık konfigürasyonunu içermekte.
   - `darknet.py` ve `utils.py` dosyaları ise bizim kendi notebook’umuza import edeceğimiz yardımcı Python modülleri.
+
+<img width="383" alt="image" src="https://github.com/user-attachments/assets/cf95d152-eb62-4a3c-88e3-fbe92ae48ace" />
