@@ -1,4 +1,4 @@
-Performans Karşılaştırması
+# Nesne Tanımada Derin Öğrenme Mimarilerinin Performans Karşılaştırması
 Bu çalışma, nesne tanıma için yaygın olarak kullanılan farklı derin öğrenme modellerinin performansını, veri augmentasyonu eklemeyi içeren bir yöntemle karşılaştırmaktadır. Kullanılan modeller arasında YOLO (You Only Look Once), Faster R-CNN (Region-based Convolutional Neural Networks), SSD (Single Shot Multibox Detector), ResNet50 ve RetinaNet yer almaktadır. 
 
 Çalışma, COCO veri seti üzerinde bu modellerin nesne tespiti başarılarını, orijinal ve augmentasyona tabi tutulmuş veri setlerinde test ederek karşılaştırmaktadır. Veri augmentasyonu ile model doğruluğunda gözle görülür iyileşmeler sağlanmıştır. Bu çalışma, nesne tespiti alanında en verimli derin öğrenme mimarisinin tespit edilmesini amaçlamaktadır.
